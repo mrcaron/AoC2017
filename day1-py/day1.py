@@ -3,7 +3,7 @@ import sys
 import os.path
 
 def finddupes(number, offset):
-    """Finds duplicate numbers circularly"""
+    """Finds duplicate numbers by matching current idx with an offset"""
     end = len(number)
     dupes = []
     for (idx1, val) in enumerate(number):
